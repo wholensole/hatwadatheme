@@ -1,0 +1,47 @@
+/*
+Theme Name:   	Hatwada
+Theme URI:    	http://www.hatwada.com
+Author:       	Prashant Kapoor
+Author URI:		http://www.hatwada.com
+Description:  	Storefront child theme
+Version:      	1.0.0
+License:      	GNU General Public License v2 or later
+License URI:  	http://www.gnu.org/licenses/gpl-2.0.html
+Template:		storefront
+Text Domain:  	hatwada
+Tags:         	black, white, light, two-columns, left-sidebar, right-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,500,300);
+*{
+	box-sizing:border-box;
+}
+body{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14px;
+	width:100%;
+	height:100%;
+}
+html{
+	width:100%;
+	height:100%;
+}
+.col-full {
+    max-width: 100%;
+}
+button, .button{
+	background-color:#0087cf;
+}
+.onsale {
+    border: 2px dashed #0087cf;
+    background-color: #fff;
+    color: #484C51;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.pagination .page-numbers li .page-numbers.current, .woocommerce-pagination .page-numbers li .page-numbers.current{
+	background-color:#0087cf;
+}
